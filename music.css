@@ -1,0 +1,42 @@
+.music-player {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .seek-bar, .volume-bar {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  #seek-bar, #volume-bar {
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  #seek-bar::-webkit-slider-thumb, #volume-bar::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #666;
+    cursor: pointer;
+  }
+  
+  .song-info {
+    font-size: 14px;
+    color: #666;
+  }
+  
+    

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <div class="music-player">
+        <audio id="audio" src="music.mp3"></audio>
+        <div class="player-controls">
+          <button id="play-pause">Play</button>
+          <button id="stop">Stop</button>
+          <div class="seek-bar">
+            <input type="range" id="seek-bar" min="0" max="100" value="0">
+          </div>
+          <div class="volume-bar">
+            <input type="range" id="volume-bar" min="0" max="100" value="50">
+          </div>
+        </div>
+        <div class="song-info">
+          <p id="song-title">Song Title</p>
+          <p id="song-artist">Artist</p>
+          <script src="music.js"></script>
+        </div>
+      </div>
+</body>
+</html>
